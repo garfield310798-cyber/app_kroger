@@ -63,27 +63,6 @@
     { "Line": 15, "UPC": "0003077211581", "Product": "FBRZ CRPT HD ODR FGHTR FR", "Size": "16.9 FO" },
     { "Line": 16, "UPC": "0003077213878", "Product": "FBRZ SPRAY AMBR PATCHOULI", "Size": "8.8 OZ" },
     { "Line": 17, "UPC": "0003077213884", "Product": "FBRZ CDDLE WETHR SPRAY", "Size": "8.8 OZ" },
-    { "Line": 18, "UPC": "0003077214634", "Product": "FBRZ GAIN RFL WARMER", "Size": "0.87 FO" },
-
-    { "Line": 19, "UPC": null, "Product": "FEBREZE CAR FRSHNR LINEN", "Size": "3 CT" },
-    { "Line": 20, "UPC": null, "Product": "GLADE CSHMR WLD AIR FRSHNR", "Size": "8 OZ" },
-    { "Line": 21, "UPC": null, "Product": "GLADE CLN LINEN AIR FRSHNR", "Size": "8 OZ" },
-    { "Line": 22, "UPC": null, "Product": "GLADE EXT TRP BLS AIR FRS", "Size": "8 OZ" },
-    { "Line": 23, "UPC": null, "Product": "GLADE APL CINNAM AIR FRSHN", "Size": "8 OZ" },
-    { "Line": 24, "UPC": null, "Product": "GLADE EXT HWN BRZ AIR FRS", "Size": "8 OZ" },
-    { "Line": 25, "UPC": null, "Product": "GLADE TRNQL LVN AIR FRSHN", "Size": "8 OZ" },
-    { "Line": 26, "UPC": null, "Product": "GLADE PLG IN SCNTD OIL WMM", "Size": "1 CT" },
-    { "Line": 27, "UPC": null, "Product": "ARWK ESS OIL VNPA RFL 5CT", "Size": "5 CT" },
-    { "Line": 28, "UPC": null, "Product": "AIR WICK SCENTED OIL PUMP", "Size": "3.38 FO" },
-    { "Line": 29, "UPC": null, "Product": "AIRWK ESS OIL PINE RFL 5CT", "Size": "5 CT" },
-    { "Line": 30, "UPC": null, "Product": "AIRWK SCENTED OIL - TW", "Size": "1 CT" },
-    { "Line": 31, "UPC": null, "Product": "AIRWK SCNTD OIL WARMER", "Size": "2 CT" },
-    { "Line": 32, "UPC": null, "Product": "AIRWK LVNDR CHMML RFL 5 CT", "Size": "5 CT" },
-    { "Line": 33, "UPC": null, "Product": "AIRWK PLG IN FRSH WTRS 5CT", "Size": "5 CT" },
-    { "Line": 34, "UPC": null, "Product": "AIRWK ESS OIL APPL RFL 5CT", "Size": "5 CT" },
-    { "Line": 35, "UPC": null, "Product": "AIRWK ESS OIL LNEN RFL 5CT", "Size": "5 CT" },
-    { "Line": 36, "UPC": null, "Product": "AIRWK ESS OIL HAWAI RFL 5CT", "Size": "5 CT" },
-    { "Line": 37, "UPC": null, "Product": "AIRWICK J/SCNT WOODLAND P", "Size": "2 CT" },
-    { "Line": 38, "UPC": null, "Product": "CTMG LVNDR ESC SOLID", "Size": "8 OZ" }
+    { "Line": 18, "UPC": "0003077214634", "Product": "FBRZ GAIN RFL WARMER", "Size": "0.87 FO" }
   ]
 }
