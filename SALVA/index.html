@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kroger Web</title>
+  <style>
+    body { font-family: Segoe UI, Arial; margin: 16px; }
+
+    .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    input, select, button { font-size: 16px; padding: 8px; }
+    button { cursor: pointer; }
+
+    pre { background: #f7f7f7; padding: 10px; border-radius: 8px; overflow: auto; white-space: pre-wrap; }
+    .status { font-weight: 700; }
+    .muted { opacity: 0.8; }
+
+    /* Accordion */
+    .section { border: 1px solid #ccc; border-radius: 10px; max-width: 980px; margin-top: 16px; overflow: hidden; }
+    .section-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px; background: #fafafa; user-select: none;
+      cursor: pointer;
+    }
+    .section-title { font-weight: 700; }
+    .section-toggle-btn {
+      border: 1px solid #ddd; background: white; border-radius: 8px;
+      padding: 4px 10px; font-weight: 700;
+    }
+    .section-body { padding: 12px; display: block; }
+    .section.collapsed .section-body { display: none; }
+
+    /* Stores table */
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #e2e2e2; padding: 8px; text-align: left; vertical-align: top; }
+    th { background: #f5f5f5; }
+    .copy-btn { padding: 6px 10px; font-size: 14px; }
+
+    /* Product images row */
+    .img-strip {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background: #fff;
+    }
+    .img-strip img {
+      max-height: 240px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2>Kroger Web</h2>
+
+  <!-- 1) STORE / KROGER -->
+  <div class="section collapsed" id="secStore">
+    <div class="section-header" data-target="secStore">
+      <div class="section-title">Seleccionar Store — <span id="storeHeaderLabel">—</span></div>
+      <button class="section-toggle-btn" type="button" data-toggle="secStore">▸</button>
+    </div>
+    <div class="section-body">
+      <div class="status">Store seleccionado: <span id="storeLabel">—</span></div>
+
+      <div class="row" style="margin-top:10px;">
+        <input id="zipInput" placeholder="Zip code" />
+        <button id="zipGo">Buscar stores</button>
+      </div>
+
+      <div style="margin-top:10px;">
+        <div class="muted">Resultado (tabla): copia el <b>locationId</b></div>
+        <div id="storesOut" style="margin-top:8px;">—</div>
+      </div>
+
+      <div class="row" style="margin-top:10px;">
+        <input id="storeInput" placeholder="Store ID (locationId)" />
+        <button id="storePaste">Pegar</button>
+        <button id="storeSave">Guardar store</button>
+        <button id="storeClear">X</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2) PROJECTS -->
+  <div class="section collapsed" id="secProjects">
+    <div class="section-header" data-target="secProjects">
+      <div class="section-title">Projects (JSON en el repo)</div>
+      <button class="section-toggle-btn" type="button" data-toggle="secProjects">▸</button>
+    </div>
+    <div class="section-body">
+      <div class="row">
+        <button id="projectsRefresh">Refrescar lista</button>
+        <span class="muted">Los JSON deben estar en <b>/projects</b></span>
+      </div>
+
+      <div class="row" style="margin-top:10px;">
+        <select id="projectSelect"></select>
+        <button id="projectLoad">Load Project</button>
+      </div>
+
+      <div style="margin-top:10px;">
+        <pre id="projectOut">—</pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3) Buscar en projecto -->
+  <div class="section collapsed" id="secScanProject">
+    <div class="section-header" data-target="secScanProject">
+      <div class="section-title">Buscar en projecto</div>
+      <button class="section-toggle-btn" type="button" data-toggle="secScanProject">▸</button>
+    </div>
+    <div class="section-body">
+      <div class="row">
+        <input id="projUpcInput" placeholder="UPC" />
+        <button id="projUpcPaste">Pegar</button>
+        <button id="projUpcCopy">Copiar</button>
+        <button id="projUpcGo">Go</button>
+        <button id="projUpcClear">X</button>
+      </div>
+
+      <div style="margin-top:10px;">
+        <pre id="projOut">—</pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4) Buscar en tienda -->
+  <div class="section collapsed" id="secScanProduct">
+    <div class="section-header" data-target="secScanProduct">
+      <div class="section-title">Buscar en tienda</div>
+      <button class="section-toggle-btn" type="button" data-toggle="secScanProduct">▸</button>
+    </div>
+    <div class="section-body">
+      <div class="row">
+        <input id="upcInput" placeholder="UPC" />
+        <button id="upcPaste">Pegar</button>
+        <button id="upcCopy">Copiar</button>
+        <button id="upcGo">Go</button>
+        <button id="upcClear">X</button>
+      </div>
+
+      <div class="row" style="margin-top:10px; align-items:flex-start;">
+        <div style="flex:1; min-width:320px;">
+          <div class="muted">Imágenes (solo diferentes, tamaño más grande):</div>
+          <div id="prodImgs" class="img-strip" style="margin-top:8px;"></div>
+        </div>
+      </div>
+
+      <div style="margin-top:10px;">
+        <pre id="prodOut">—</pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- Subir versión para romper cache -->
+  <script src="/static/app.js?v=9"></script>
+</body>
+</html>
