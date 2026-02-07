@@ -1,0 +1,15 @@
+{
+  "Header": {
+    "Planogram": "D024_L00000_D01_C004_V094_F012_MX - CAN MEAT 7 SHELF - WENDYS TEST",
+    "Effective_Date": "5/25/2025",
+    "Period_Week": "P05 W01 Y2025",
+    "Bay": "1 of 3",
+    "Page": "4 of 8"
+  },
+  "Products": [
+    {"Bay":1,"Fi":2,"Pos":5,"UPC":"0001111013903","Fac":2,"Description":"KRO ORG LUNCHEON MEAT","Size":"12 OZ","Height":"3.25 in","Width":"4.00 in","Merch":"Unit"},
+
+    {"Bay":1,"Fi":1,"Pos":1,"UPC":"0003760030394","Fac":1,"Description":"DNTYMR BEEF STEW","Size":"15 OZ","Height":"4.44 in","Width":"2.94 in","Merch":"Tray"},
+    {"Bay":1,"Fi":1,"Pos":2,"UPC":"0003760021583","Fac":3,"Description":"DNTYMR BEEF STEW","Size":"20 OZ","Height":"3.86 in","Width":"3.99 in","Merch":"Tray"}
+  ]
+}
