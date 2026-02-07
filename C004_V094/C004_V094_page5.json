@@ -1,0 +1,42 @@
+{
+  "Header": {
+    "Planogram": "D024_L00000_D01_C004_V094_F012_MX - CAN MEAT 7 SHELF - WENDYS TEST",
+    "Effective_Date": "5/25/2025",
+    "Period_Week": "P05 W01 Y2025",
+    "Bay": "2 of 3",
+    "Page": "5 of 8"
+  },
+  "Products": [
+    {"Bay":1,"Fi":7,"Pos":4,"UPC":"0005410001937","Fac":6,"Description":"ARMR CORNED BEEF HASH","Size":"14 OZ","Height":"4.25 in","Width":"3.00 in","Merch":"Unit"},
+    {"Bay":2,"Fi":7,"Pos":1,"UPC":"0001111012517","Fac":4,"Description":"KRO CORNED BEEF","Size":"12 OZ","Height":"3.63 in","Width":"3.21 in","Merch":"Unit"},
+    {"Bay":2,"Fi":7,"Pos":2,"UPC":"0003900008104","Fac":4,"Description":"LIBBY CORNED BEEF","Size":"12 OZ","Height":"3.63 in","Width":"3.17 in","Merch":"Unit"},
+    {"Bay":2,"Fi":7,"Pos":3,"UPC":"0003760021629","Fac":1,"Description":"HRML BEEF TAMALES","Size":"15 OZ","Height":"4.43 in","Width":"2.97 in","Merch":"Tray"},
+
+    {"Bay":2,"Fi":6,"Pos":1,"UPC":"0005100027802","Fac":2,"Description":"SWANSON PREM WHT CHKN LS","Size":"12.5 OZ","Height":"2.24 in","Width":"3.99 in","Merch":"Unit"},
+    {"Bay":2,"Fi":6,"Pos":2,"UPC":"0005100023355","Fac":3,"Description":"SWNS CHK BRST WHT PR CHNK","Size":"2/12 OZ","Height":"4.40 in","Width":"4.00 in","Merch":"Unit"},
+    {"Bay":2,"Fi":6,"Pos":3,"UPC":"0004172914390","Fac":1,"Description":"SKYLN CHILI","Size":"10.5 OZ","Height":"3.93 in","Width":"2.66 in","Merch":"Unit"},
+    {"Bay":2,"Fi":6,"Pos":4,"UPC":"0004172914391","Fac":4,"Description":"SKYLN CHILI","Size":"15 OZ","Height":"4.42 in","Width":"2.96 in","Merch":"Unit"},
+    {"Bay":2,"Fi":6,"Pos":5,"UPC":"0007359100086","Fac":2,"Description":"CINCINNATI RECIPE CHILI","Size":"15 OZ","Height":"4.43 in","Width":"2.96 in","Merch":"Unit"},
+    {"Bay":2,"Fi":6,"Pos":6,"UPC":"0008518440015","Fac":2,"Description":"STK N SHK CHILI WITH BEAN","Size":"15 OZ","Height":"4.44 in","Width":"3.00 in","Merch":"Unit"},
+
+    {"Bay":1,"Fi":5,"Pos":7,"UPC":"0001111013920","Fac":2,"Description":"KRO LESS SODIUM CHICKEN","Size":"10 OZ","Height":"1.89 in","Width":"3.91 in","Merch":"Unit"},
+    {"Bay":2,"Fi":5,"Pos":1,"UPC":"0001111087214","Fac":2,"Description":"KRO PREM SHRD CHICKEN","Size":"10 OZ","Height":"1.85 in","Width":"4.00 in","Merch":"Unit"},
+    {"Bay":2,"Fi":5,"Pos":2,"UPC":"0001111090092","Fac":2,"Description":"KRO 100% NAT CHKN BREAST","Size":"12.5 OZ","Height":"2.25 in","Width":"4.00 in","Merch":"Unit"},
+    {"Bay":2,"Fi":5,"Pos":3,"UPC":"0003760024528","Fac":1,"Description":"HRML CHILI HOT NO BEANS","Size":"15 OZ","Height":"4.42 in","Width":"2.94 in","Merch":"Tray"},
+    {"Bay":2,"Fi":5,"Pos":4,"UPC":"0003760023352","Fac":2,"Description":"HRML CHILI HOT WITH BEANS","Size":"15 OZ","Height":"4.43 in","Width":"2.96 in","Merch":"Tray"},
+
+    {"Bay":1,"Fi":4,"Pos":7,"UPC":"0008000052246","Fac":1,"Description":"STRKS BF CRTNS TACO SNACK","Size":"2.6 OZ","Height":"6.63 in","Width":"4.50 in","Merch":"Tray"},
+    {"Bay":2,"Fi":4,"Pos":1,"UPC":"0008660070350","Fac":3,"Description":"BMBE CHICKEN SALAD KIT","Size":"3.5 OZ","Height":"5.25 in","Width":"2.68 in","Merch":"Tray"},
+    {"Bay":2,"Fi":4,"Pos":2,"UPC":"0003760023785","Fac":3,"Description":"HRML CHILI NO BEANS","Size":"10.5 OZ","Height":"3.97 in","Width":"2.65 in","Merch":"Unit"},
+    {"Bay":2,"Fi":4,"Pos":3,"UPC":"0003760024193","Fac":2,"Description":"HRML CHILI NO BEANS","Size":"15 OZ","Height":"4.43 in","Width":"2.96 in","Merch":"Tray"},
+
+    {"Bay":1,"Fi":3,"Pos":5,"UPC":"0002700044212","Fac":2,"Description":"HNTS MNWCH SLPY JOE SCE","Size":"15 OZ","Height":"4.44 in","Width":"2.95 in","Merch":"Tray"},
+    {"Bay":2,"Fi":3,"Pos":1,"UPC":"0001111014702","Fac":1,"Description":"KRO SLOPPY JOE SAUCE","Size":"15 OZ","Height":"4.39 in","Width":"2.96 in","Merch":"Tray"},
+    {"Bay":2,"Fi":3,"Pos":2,"UPC":"0001111087740","Fac":2,"Description":"KRO HOT DOG CHILI SAUCE","Size":"10 OZ","Height":"3.86 in","Width":"2.66 in","Merch":"Tray"},
+
+    {"Bay":1,"Fi":2,"Pos":6,"UPC":"0002700050015","Fac":2,"Description":"HNTS MNWCH SLPY JOE SCE","Size":"24 OZ","Height":"5.31 in","Width":"3.40 in","Merch":"Tray"},
+    {"Bay":2,"Fi":2,"Pos":1,"UPC":"0002700044193","Fac":1,"Description":"HNTS MNWCH BOLD SLPY JOE","Size":"16 OZ","Height":"4.44 in","Width":"2.95 in","Merch":"Tray"},
+    {"Bay":2,"Fi":2,"Pos":2,"UPC":"0002700008734","Fac":2,"Description":"HNTS MNWCH NSA SLPY JOE SC","Size":"15 OZ","Height":"4.45 in","Width":"2.93 in","Merch":"Unit"},
+    {"Bay":2,"Fi":2,"Pos":3,"UPC":"0005410079513","Fac":1,"Description":"ARMR STAR VIENNA SAUSAGES","Size":"12/4.6 OZ","Height":"7.94 in","Width":"10.56 in","Merch":"Unit"}
+  ]
+}
