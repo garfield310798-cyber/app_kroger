@@ -1,0 +1,34 @@
+{
+  "Header": {
+    "Planogram": "D024_L00000_D01_C004_V094_F012_MX - CAN MEAT 7 SHELF - WENDYS TEST",
+    "Effective_Date": "5/25/2025",
+    "Period_Week": "P05 W01 Y2025",
+    "Page": "2 of 8"
+  },
+  "Products_Added_To_Planogram_NEW": [
+    { "Line": 1, "UPC": "0002700008734", "Product": "HNTS MNWCH NSA SLP JOE SC", "Size": "15 OZ" },
+    { "Line": 2, "UPC": "0003760013878", "Product": "HRML CHILI WITH BEANS", "Size": "25 OZ" },
+    { "Line": 3, "UPC": "0003760035930", "Product": "SPAM KOREAN BBQ FLVR", "Size": "12 OZ" },
+    { "Line": 4, "UPC": "0003760049330", "Product": "HRML CHILI NO BEANS", "Size": "25 OZ" },
+    { "Line": 5, "UPC": "0003900008104", "Product": "LIBBY CORNED BEEF", "Size": "12 OZ" },
+    { "Line": 6, "UPC": "0004172914390", "Product": "SKYLN CHILI", "Size": "10.5 OZ" },
+    { "Line": 7, "UPC": "0007184618835", "Product": "YLLWSTN ANG BF CHL NO BNS", "Size": "15 OZ" },
+    { "Line": 8, "UPC": "0007184619230", "Product": "YLLWSTN ANG BF CHL W/ BNS", "Size": "15 OZ" },
+    { "Line": 9, "UPC": "0007922845300", "Product": "JKLNK CHL W/ BNS ORIGNL", "Size": "15 OZ" },
+    { "Line": 10, "UPC": "0007922845301", "Product": "JKLNK CHL NO BNS ORIGNL", "Size": "15 OZ" },
+    { "Line": 11, "UPC": "0007922845302", "Product": "JKLNK CHILI W/BNS HCKRY", "Size": "15 OZ" },
+    { "Line": 12, "UPC": "0007922845304", "Product": "JKLNK CHILI W/BNS JLPÑO", "Size": "15 OZ" }
+  ],
+  "Products_Removed_From_Planogram_DELETE": [
+    { "Line": 1, "UPC": "0001111012717", "Product": "KRO PLAIN CHKN IN WATER", "Size": "2.6 OZ" },
+    { "Line": 2, "UPC": "0001111012718", "Product": "KRO PLAIN CHKN IN WATER 4PK", "Size": "10.4 OZ" },
+    { "Line": 3, "UPC": "0002370003823", "Product": "KYSN 98% FF CHUNK CHICKEN", "Size": "12.5 OZ" },
+    { "Line": 4, "UPC": "0003760024609", "Product": "DNTYMR BEEF STEW", "Size": "15 OZ" },
+    { "Line": 5, "UPC": "0005100028734", "Product": "SWNS GARLC HERB WHT CHKN", "Size": "2.6 OZ" },
+    { "Line": 6, "UPC": "0005100028784", "Product": "SWNS ORGNL WHT CHNK CHKN", "Size": "2.6 OZ" },
+    { "Line": 7, "UPC": "0005410093602", "Product": "ARMR BBQ VIENNA SAUSAGE", "Size": "4.6 OZ" },
+    { "Line": 8, "UPC": "0008000052244", "Product": "STRKS BEEF CRTNS BBQ SNCK", "Size": "2.6 OZ" },
+    { "Line": 9, "UPC": "0079685310002", "Product": "KRYST ALL NATN TSRV BEEF", "Size": "14.5 OZ" },
+    { "Line": 10, "UPC": "0008439506628", "Product": "LUCK CHKN DUMPLINGS", "Size": "15 OZ" }
+  ]
+}
