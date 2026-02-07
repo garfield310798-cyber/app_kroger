@@ -1,0 +1,45 @@
+{
+  "Header": {
+    "Planogram": "D024_L00000_D01_C004_V094_F012_MX - CAN MEAT 7 SHELF - WENDYS TEST",
+    "Effective_Date": "5/25/2025",
+    "Period_Week": "P05 W01 Y2025",
+    "Bay": "1 of 3",
+    "Page": "3 of 8"
+  },
+  "Products": [
+    {"Bay":1,"Fi":7,"Pos":1,"UPC":"0079685310005","Fac":4,"Description":"KYST ALL NAT HTSRV CHKN","Size":"28 OZ","Height":"4.75 in","Width":"4.00 in","Merch":"Unit"},
+    {"Bay":1,"Fi":7,"Pos":2,"UPC":"0079685310001","Fac":4,"Description":"KYST ALL NAT HTSRV BEEF","Size":"28 OZ","Height":"4.75 in","Width":"4.00 in","Merch":"Unit"},
+    {"Bay":1,"Fi":7,"Pos":3,"UPC":"0001700001678","Fac":5,"Description":"ARMR SLICED DRIED BEEF","Size":"2.25 OZ","Height":"3.67 in","Width":"2.41 in","Merch":"Unit"},
+
+    {"Bay":1,"Fi":6,"Pos":1,"UPC":"0001111089639","Fac":2,"Description":"KRO PRM CHK CHKN BRST 6PK","Size":"6/10 OZ","Height":"5.38 in","Width":"8.00 in","Merch":"Unit"},
+    {"Bay":1,"Fi":6,"Pos":2,"UPC":"0005100002379","Fac":1,"Description":"SWNS PREM CHUNK WHT CHKN","Size":"4.5 OZ","Height":"1.50 in","Width":"3.38 in","Merch":"Unit"},
+    {"Bay":1,"Fi":6,"Pos":3,"UPC":"0005100028473","Fac":3,"Description":"SWNS WHT PR CHNK CKN BRST","Size":"4/4.5 OZ","Height":"5.03 in","Width":"3.44 in","Merch":"Unit"},
+    {"Bay":1,"Fi":6,"Pos":4,"UPC":"0005100010348","Fac":1,"Description":"SWNS PREM CHUNK WHT CHKN","Size":"9.75 OZ","Height":"1.86 in","Width":"3.99 in","Merch":"Unit"},
+    {"Bay":1,"Fi":6,"Pos":5,"UPC":"0005100010349","Fac":1,"Description":"SWNS WHIT N DRK PRM CHKN","Size":"9.75 OZ","Height":"1.85 in","Width":"3.99 in","Merch":"Unit"},
+    {"Bay":1,"Fi":6,"Pos":6,"UPC":"0005100018806","Fac":3,"Description":"SWNS PREM CHUNK WHT CHKN","Size":"12.5 OZ","Height":"2.20 in","Width":"4.00 in","Merch":"Unit"},
+
+    {"Bay":1,"Fi":5,"Pos":1,"UPC":"0001111012066","Fac":3,"Description":"KRO PREM SHRD CHICKEN 3PK","Size":"3/10 OZ","Height":"5.63 in","Width":"4.06 in","Merch":"Unit"},
+    {"Bay":1,"Fi":5,"Pos":2,"UPC":"0001111040967","Fac":2,"Description":"STO CANNED CHICKEN 4 PACK","Size":"4/5 OZ","Height":"6.00 in","Width":"3.44 in","Merch":"Unit"},
+    {"Bay":1,"Fi":5,"Pos":3,"UPC":"0001111089147","Fac":1,"Description":"STO CANNED CHICKEN","Size":"5 OZ","Height":"1.50 in","Width":"3.40 in","Merch":"Unit"},
+    {"Bay":1,"Fi":5,"Pos":4,"UPC":"0001111083954","Fac":2,"Description":"KRO CHNK CHICKEN IN WATER","Size":"5 OZ","Height":"1.50 in","Width":"3.38 in","Merch":"Unit"},
+    {"Bay":1,"Fi":5,"Pos":5,"UPC":"0001111083955","Fac":2,"Description":"KRO PREM CHNK CHKN BREAST","Size":"5 OZ","Height":"1.50 in","Width":"3.40 in","Merch":"Unit"},
+    {"Bay":1,"Fi":5,"Pos":6,"UPC":"0001111083921","Fac":2,"Description":"KRO PREM CHNK CHKN BREAST","Size":"10 OZ","Height":"1.87 in","Width":"4.00 in","Merch":"Unit"},
+
+    {"Bay":1,"Fi":4,"Pos":1,"UPC":"0003760019067","Fac":1,"Description":"SPAM SINGLE CLASSIC","Size":"2.5 OZ","Height":"4.80 in","Width":"4.25 in","Merch":"Tray"},
+    {"Bay":1,"Fi":4,"Pos":2,"UPC":"0008000052086","Fac":3,"Description":"STRKST WHTE CHICKEN POUCH","Size":"2.6 OZ","Height":"6.25 in","Width":"4.50 in","Merch":"Tray"},
+    {"Bay":1,"Fi":4,"Pos":3,"UPC":"0008000051770","Fac":2,"Description":"STRKST CHICKEN SALAD","Size":"2.6 OZ","Height":"6.25 in","Width":"4.50 in","Merch":"Tray"},
+    {"Bay":1,"Fi":4,"Pos":4,"UPC":"0008000051766","Fac":2,"Description":"STRKST BLD BFFL CHCKN PCH","Size":"2.6 OZ","Height":"6.25 in","Width":"4.50 in","Merch":"Tray"},
+    {"Bay":1,"Fi":4,"Pos":5,"UPC":"0008000052226","Fac":1,"Description":"STRKST CHKN CRTNS SW SNCK","Size":"2.6 OZ","Height":"6.65 in","Width":"4.50 in","Merch":"Tray"},
+    {"Bay":1,"Fi":4,"Pos":6,"UPC":"0008000052242","Fac":1,"Description":"STRKS BEEF CRTNS SJ SNACK","Size":"2.6 OZ","Height":"6.63 in","Width":"4.50 in","Merch":"Tray"},
+
+    {"Bay":1,"Fi":3,"Pos":1,"UPC":"0003760000001","Fac":1,"Description":"SPAM CLASSIC","Size":"7 OZ","Height":"2.00 in","Width":"4.00 in","Merch":"Unit"},
+    {"Bay":1,"Fi":3,"Pos":2,"UPC":"0003760013872","Fac":2,"Description":"SPAM CLASSIC","Size":"12 OZ","Height":"3.31 in","Width":"4.00 in","Merch":"Tray"},
+    {"Bay":1,"Fi":3,"Pos":3,"UPC":"0003760011544","Fac":2,"Description":"HRML 25% LESS SODIUM SPAM","Size":"12 OZ","Height":"3.31 in","Width":"4.00 in","Merch":"Unit"},
+    {"Bay":1,"Fi":3,"Pos":4,"UPC":"0003760017534","Fac":2,"Description":"HRML LITE SPAM","Size":"12 OZ","Height":"3.31 in","Width":"4.00 in","Merch":"Unit"},
+
+    {"Bay":1,"Fi":2,"Pos":1,"UPC":"0003760011980","Fac":3,"Description":"SPAM CLASSIC 2CT","Size":"2/12 OZ","Height":"3.31 in","Width":"4.50 in","Merch":"Unit"},
+    {"Bay":1,"Fi":2,"Pos":2,"UPC":"0003760016900","Fac":2,"Description":"SPAM OVEN ROASTED TURKEY","Size":"12 OZ","Height":"3.26 in","Width":"4.00 in","Merch":"Unit"},
+    {"Bay":1,"Fi":2,"Pos":3,"UPC":"0003760033658","Fac":2,"Description":"SPAM WITH BACON","Size":"12 OZ","Height":"3.31 in","Width":"4.00 in","Merch":"Unit"},
+    {"Bay":1,"Fi":2,"Pos":4,"UPC":"0003760035930","Fac":2,"Description":"SPAM KOREAN BBQ FLVR","Size":"12 OZ","Height":"3.30 in","Width":"4.00 in","Merch":"Unit"}
+  ]
+}
