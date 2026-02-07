@@ -1,0 +1,14 @@
+{
+  "Header": {
+    "Planogram": "D024_L00000_D01_C004_V094_F012_MX - CAN MEAT 7 SHELF - WENDYS TEST",
+    "Effective_Date": "5/25/2025",
+    "Period_Week": "P05 W01 Y2025",
+    "Bay": "2 of 3",
+    "Page": "6 of 8"
+  },
+  "Products": [
+    {"Bay":2,"Fi":1,"Pos":1,"UPC":"0003760024687","Fac":2,"Description":"DNTYMR BEEF STEW","Size":"38 OZ","Height":"6.10 in","Width":"3.95 in","Merch":"Tray"},
+    {"Bay":2,"Fi":1,"Pos":2,"UPC":"0001111084956","Fac":1,"Description":"KRO BEEF STEW","Size":"20 OZ","Height":"3.88 in","Width":"3.94 in","Merch":"Tray"},
+    {"Bay":2,"Fi":1,"Pos":3,"UPC":"0004135850012","Fac":2,"Description":"SWTSU CHKN DUMPLINGS","Size":"24 OZ","Height":"3.55 in","Width":"3.99 in","Merch":"Unit"}
+  ]
+}
